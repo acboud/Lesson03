@@ -1,0 +1,76 @@
+/*Color Palette */
+/* https://coolors.co/  */
+/*
+https://coolors.co/e0e0e2-81d2c7-b5bad0-7389ae-416788
+#e0e0e2 - platinum (light)
+#81d2c7 - tiffany blue (like seafoam)
+#b5bad0 - french gray
+#7389ae - glaucous (slightly less dark)
+#416788 - lapis lazuli (darkest)
+*/
+
+/* Get RGB value from this site: https://www.webfx.com/web-design/hex-to-rgb/ */
+
+
+/* --------------Global styles ---------------------------- */
+
+body{
+    color: #416788;
+}
+
+
+img {
+    width: 300px;
+}
+
+a {
+    color: #7389ae;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* --------------Profile ---------------------------- */
+
+header{
+    background: #416788;
+    color:  #e0e0e2;
+}
+
+/* --------------Projects ---------------------------- */
+
+.projects {
+    background: #e0e0e2;
+}
+
+.projects .btn {
+    color:  #e0e0e2;
+    background: #81d2c7;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects .btn:hover {
+    background: rgba(129,210,199,80%);
+}
+
+/* --------------Work Experience ---------------------------- */
+
+.work-experience{
+    background: #81d2c7;
+}
+
+
+/* --------------Education ---------------------------- */
+
+
+
+/* --------------Contact Info ---------------------------- */
+
+footer {
+    background: #b5bad0; 
+    color:  #e0e0e2;
+}
